@@ -1,0 +1,29 @@
+{
+  "name": "realtime-chat",
+  "version": "1.0.0",
+  "description": "Backend in node js for a realtime chat aplication",
+  "main": "server.js",
+  "scripts": {
+    "start": "DEBUG=app:* nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luisrdz5/realtime-chat.git"
+  },
+  "keywords": [
+    "realtime",
+    "chat"
+  ],
+  "author": "Luis Antonio Rodriguez Garcia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luisrdz5/realtime-chat/issues"
+  },
+  "homepage": "https://github.com/luisrdz5/realtime-chat#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
